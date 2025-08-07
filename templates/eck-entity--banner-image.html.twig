@@ -1,0 +1,23 @@
+{#
+    /**
+     * @file
+     * Theme override for a Banner Image entity.
+     *
+     * Available variables:
+     * - label: The (sanitized) entity label (title).
+     * - content.field_image: Rendered image field.
+     * - content.field_description: Rendered description field.
+     */
+    #}
+    {{ attach_library('banner_carousel/banner-carousel') }}
+    <article class="banner-image">
+      <header>
+        <h2 class="banner-image__title">{{ content.title }}</h2>
+      </header>
+      <div class="banner-image__media">
+        {{ content.field_image_file }}
+      </div>
+      <div class="banner-image__description">
+        {{ content.field_description }}
+      </div>
+    </article>

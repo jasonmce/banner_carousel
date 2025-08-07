@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ *
+ * Provide a theme suggestion for our template override.
+ */
+function banner_carousel_theme($existing, $type, $theme, $path) {
+    return [
+      'eck_entity__banner_image' => [
+        'render element' => 'elements',
+        'base hook' => 'eck_entity',
+      ],
+    ];
+}

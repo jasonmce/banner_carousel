@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.banner_image
+type: banner_image
+name: 'Banner image'
+description: 'Contains information needed to render a banner image and text'

@@ -1,0 +1,13 @@
+# Custom library for general purposes.
+banner-carousel:
+  js:
+    js/banner-carousel.js: {}
+  css:
+    theme:
+      css/banner-carousel.css: {}
+  dependencies:
+    - core/drupal
+    - eck:eck
+    - views:views
+    - simple_carousel:simple_carousel
+

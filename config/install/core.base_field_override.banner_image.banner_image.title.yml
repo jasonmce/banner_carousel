@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.banner_image.banner_image
+id: banner_image.banner_image.title
+field_name: title
+entity_type: banner_image
+bundle: banner_image
+label: Title
+description: 'Photo subject and location, ex: Yarra Footbridge, Melbourne, Vic, AUS.  Can reference photo angle, ex: from St Phil Tower'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

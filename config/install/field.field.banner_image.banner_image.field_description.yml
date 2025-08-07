@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.banner_image.banner_image
+    - field.storage.banner_image.field_description
+    - filter.format.full_html
+  module:
+    - text
+id: banner_image.banner_image.field_description
+field_name: field_description
+entity_type: banner_image
+bundle: banner_image
+label: Description
+description: 'The summary is shown on the banner, the body is included as the shown in a modal on rollover and included in the banner attribute for a11y.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats:
+    - full_html
+field_type: text_with_summary

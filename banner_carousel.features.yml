@@ -1,0 +1,4 @@
+excluded:
+  - filter.format.full_html
+required:
+  - image.style.wide

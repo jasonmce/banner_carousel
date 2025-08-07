@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: banner_image
+label: 'Banner image'
+created: true
+changed: true
+uid: true
+title: true

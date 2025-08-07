@@ -1,0 +1,17 @@
+{
+    "name": "jasonmce/banner-carousel",
+    "description": "A Drupal module that provides a banner carousel block",
+    "type": "drupal-module",
+    "authors": [
+        {
+            "name": "JasonMcE",
+            "email": "bitbucket@brightshinyobject.com"
+        }
+    ],
+    "require": {
+	"php": ">=8.1",
+        "drupal/core": "^9 || ^10 || ^11",
+        "drupal/eck": "^2.0",
+        "drupal/simple_carousel": "^1.0"
+    }
+}

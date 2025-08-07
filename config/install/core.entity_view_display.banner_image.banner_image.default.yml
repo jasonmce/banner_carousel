@@ -1,0 +1,46 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.banner_image.banner_image
+    - field.field.banner_image.banner_image.field_description
+    - field.field.banner_image.banner_image.field_image_file
+    - image.style.wide
+  module:
+    - image
+    - text
+id: banner_image.banner_image.default
+targetEntityType: banner_image
+bundle: banner_image
+mode: default
+content:
+  field_description:
+    type: text_default
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_image_file:
+    type: image
+    label: visually_hidden
+    settings:
+      image_link: ''
+      image_style: wide
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  changed: true
+  created: true
+  uid: true

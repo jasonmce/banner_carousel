@@ -1,0 +1,18 @@
+name: 'banner carousel'
+type: module
+core_version_requirement: '^9.4 || ^10 || ^11'
+dependencies:
+  - 'banner_carousel:banner_carousel'
+  - 'drupal:block'
+  - 'drupal:editor'
+  - 'drupal:field'
+  - 'drupal:file'
+  - 'drupal:filter'
+  - 'drupal:image'
+  - 'drupal:system'
+  - 'drupal:text'
+  - 'drupal:user'
+  - 'drupal:views'
+  - 'eck:eck'
+  - 'simple_carousel:simple_carousel'
+version: 1.0.0

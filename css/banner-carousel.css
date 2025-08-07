@@ -1,0 +1,68 @@
+.banner-image {
+    position: relative;
+    width: 100%;
+    font-family: sans-serif;
+    color: white;
+    overflow: hidden;
+    display: block;
+}
+
+/* Ensure the image fills the container and sets the height */
+.banner-image__media {
+    line-height: 0;
+}
+
+.banner-image__media img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.banner-image header,
+.banner-image__description {
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0.5em;
+    border-radius: 4px;
+    color: white;
+}
+
+.banner-image header {
+    top: 1em;
+    left: 1em;
+}
+
+.banner-image__title,
+.banner-image__description .field__item {
+    color: white;
+    line-height: 1.2;
+}
+
+.banner-image__title {
+    margin: 0;
+    font-size: 1em;
+}
+
+.banner-image__description {
+    bottom: 1em;
+    right: 1em;
+    font-size: 1em;
+    text-align: right;
+}
+
+@media (min-width: 768px) {
+
+    /* Absolutely position text blocks atop of the image */
+    .banner-image header,
+    .banner-image__description {
+        position: absolute;
+    }
+
+    .banner-image__title {
+        font-size: 2em;
+    }
+
+    .banner-image__description {
+        font-size: 1.2em;
+    }
+}
